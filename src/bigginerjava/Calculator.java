@@ -5,7 +5,7 @@ public class Calculator {
         Scanner input = new Scanner(System.in);
         int num,sum=0, sub=0, multi=1,result=0;
         char operator;
-        for(int i=1; i<=5; i++){
+        while(true){
             System.out.print("Enter operator: ");
             operator = input.next().charAt(0);
             switch(operator){
